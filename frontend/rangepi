@@ -1,0 +1,1202 @@
+Mar 05 14:20:37 orion systemd[1]: Starting PM2 process manager...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10310.[0m
+Mar 05 14:20:38 orion pm2[4865]: [PM2] Resurrecting
+Mar 05 14:20:38 orion pm2[4865]: [PM2] Restoring processes located in /home/orangepi/.pm2/dump.pm2
+Mar 05 14:20:38 orion pm2[4865]: [PM2] Process /usr/bin/bash restored
+Mar 05 14:20:38 orion pm2[4865]: ┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+Mar 05 14:20:38 orion pm2[4865]: │ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+Mar 05 14:20:38 orion pm2[4865]: ├────┼───────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+Mar 05 14:20:38 orion pm2[4865]: │ 0  │ webapp    │ default     │ N/A     │ fork    │ 4873     │ 0s     │ 0    │ online    │ 0%       │ 1.3mb    │ orangepi │ disabled │
+Mar 05 14:20:38 orion pm2[4865]: └────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Mar 05 14:20:38 orion systemd[1]: [0;1;31m[0;1;39m[0;1;31mpm2-orangepi.service: New main PID 4537 does not belong to service, and PID file is not owned by root. Refusing.[0m
+Mar 05 14:20:38 orion systemd[1]: [0;1;31m[0;1;39m[0;1;31mpm2-orangepi.service: New main PID 4537 does not belong to service, and PID file is not owned by root. Refusing.[0m
+Mar 05 14:20:38 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Failed with result 'protocol'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit pm2-orangepi.service has entered the 'failed' state with result 'protocol'.[0m
+Mar 05 14:20:38 orion systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start PM2 process manager.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10310 and the job result is failed.[0m
+Mar 05 14:20:38 orion systemd[1]: pm2-orangepi.service: Scheduled restart job, restart counter is at 1.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit pm2-orangepi.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Mar 05 14:20:38 orion systemd[1]: Stopped PM2 process manager.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit pm2-orangepi.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit pm2-orangepi.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10472 and the job result is done.[0m
+Mar 05 14:20:38 orion systemd[1]: Starting PM2 process manager...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10472.[0m
+Mar 05 14:20:38 orion pm2[4890]: [PM2] Resurrecting
+Mar 05 14:20:38 orion pm2[4890]: [PM2] Restoring processes located in /home/orangepi/.pm2/dump.pm2
+Mar 05 14:20:38 orion pm2[4890]: ┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+Mar 05 14:20:38 orion pm2[4890]: │ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+Mar 05 14:20:38 orion pm2[4890]: ├────┼───────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+Mar 05 14:20:38 orion pm2[4890]: │ 0  │ webapp    │ default     │ N/A     │ fork    │ 4873     │ 0s     │ 0    │ online    │ 0%       │ 48.2mb   │ orangepi │ disabled │
+Mar 05 14:20:38 orion pm2[4890]: └────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Mar 05 14:20:38 orion systemd[1]: pm2-orangepi.service: Can't open PID file /home/orangepi/.pm2/pm2.pid (yet?) after start: Operation not permitted
+Mar 05 14:20:38 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Failed with result 'protocol'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit pm2-orangepi.service has entered the 'failed' state with result 'protocol'.[0m
+Mar 05 14:20:38 orion systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start PM2 process manager.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10472 and the job result is failed.[0m
+Mar 05 14:20:38 orion systemd[1]: pm2-orangepi.service: Scheduled restart job, restart counter is at 2.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit pm2-orangepi.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Mar 05 14:20:38 orion systemd[1]: Stopped PM2 process manager.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit pm2-orangepi.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit pm2-orangepi.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10553 and the job result is done.[0m
+Mar 05 14:20:38 orion systemd[1]: Starting PM2 process manager...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10553.[0m
+Mar 05 14:20:39 orion pm2[4902]: [PM2] Resurrecting
+Mar 05 14:20:39 orion pm2[4902]: [PM2] Restoring processes located in /home/orangepi/.pm2/dump.pm2
+Mar 05 14:20:39 orion pm2[4902]: ┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+Mar 05 14:20:39 orion pm2[4902]: │ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+Mar 05 14:20:39 orion pm2[4902]: ├────┼───────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+Mar 05 14:20:39 orion pm2[4902]: │ 0  │ webapp    │ default     │ N/A     │ fork    │ 4873     │ 1s     │ 0    │ online    │ 0%       │ 55.7mb   │ orangepi │ disabled │
+Mar 05 14:20:39 orion pm2[4902]: └────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Mar 05 14:20:39 orion systemd[1]: pm2-orangepi.service: Can't open PID file /home/orangepi/.pm2/pm2.pid (yet?) after start: Operation not permitted
+Mar 05 14:20:39 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Failed with result 'protocol'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit pm2-orangepi.service has entered the 'failed' state with result 'protocol'.[0m
+Mar 05 14:20:39 orion systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start PM2 process manager.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10553 and the job result is failed.[0m
+Mar 05 14:20:39 orion systemd[1]: pm2-orangepi.service: Scheduled restart job, restart counter is at 3.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit pm2-orangepi.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Mar 05 14:20:39 orion systemd[1]: Stopped PM2 process manager.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit pm2-orangepi.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit pm2-orangepi.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10634 and the job result is done.[0m
+Mar 05 14:20:39 orion systemd[1]: Starting PM2 process manager...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10634.[0m
+Mar 05 14:20:39 orion pm2[4910]: [PM2] Resurrecting
+Mar 05 14:20:39 orion pm2[4910]: [PM2] Restoring processes located in /home/orangepi/.pm2/dump.pm2
+Mar 05 14:20:39 orion pm2[4910]: ┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+Mar 05 14:20:39 orion pm2[4910]: │ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+Mar 05 14:20:39 orion pm2[4910]: ├────┼───────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+Mar 05 14:20:39 orion pm2[4910]: │ 0  │ webapp    │ default     │ N/A     │ fork    │ 4873     │ 1s     │ 0    │ online    │ 0%       │ 57.7mb   │ orangepi │ disabled │
+Mar 05 14:20:39 orion pm2[4910]: └────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Mar 05 14:20:39 orion systemd[1]: pm2-orangepi.service: Can't open PID file /home/orangepi/.pm2/pm2.pid (yet?) after start: Operation not permitted
+Mar 05 14:20:39 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Failed with result 'protocol'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit pm2-orangepi.service has entered the 'failed' state with result 'protocol'.[0m
+Mar 05 14:20:39 orion systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start PM2 process manager.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10634 and the job result is failed.[0m
+Mar 05 14:20:39 orion systemd[1]: pm2-orangepi.service: Scheduled restart job, restart counter is at 4.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit pm2-orangepi.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Mar 05 14:20:39 orion systemd[1]: Stopped PM2 process manager.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit pm2-orangepi.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit pm2-orangepi.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10715 and the job result is done.[0m
+Mar 05 14:20:39 orion systemd[1]: Starting PM2 process manager...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10715.[0m
+Mar 05 14:20:40 orion pm2[4917]: [PM2] Resurrecting
+Mar 05 14:20:40 orion pm2[4917]: [PM2] Restoring processes located in /home/orangepi/.pm2/dump.pm2
+Mar 05 14:20:40 orion pm2[4917]: ┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+Mar 05 14:20:40 orion pm2[4917]: │ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+Mar 05 14:20:40 orion pm2[4917]: ├────┼───────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+Mar 05 14:20:40 orion pm2[4917]: │ 0  │ webapp    │ default     │ N/A     │ fork    │ 4873     │ 2s     │ 0    │ online    │ 0%       │ 65.6mb   │ orangepi │ disabled │
+Mar 05 14:20:40 orion pm2[4917]: └────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Mar 05 14:20:40 orion systemd[1]: pm2-orangepi.service: Can't open PID file /home/orangepi/.pm2/pm2.pid (yet?) after start: Operation not permitted
+Mar 05 14:20:40 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Failed with result 'protocol'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit pm2-orangepi.service has entered the 'failed' state with result 'protocol'.[0m
+Mar 05 14:20:40 orion systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start PM2 process manager.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10715 and the job result is failed.[0m
+Mar 05 14:20:40 orion systemd[1]: pm2-orangepi.service: Scheduled restart job, restart counter is at 5.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit pm2-orangepi.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Mar 05 14:20:40 orion systemd[1]: Stopped PM2 process manager.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit pm2-orangepi.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit pm2-orangepi.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10796 and the job result is done.[0m
+Mar 05 14:20:40 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Start request repeated too quickly.[0m
+Mar 05 14:20:40 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Failed with result 'protocol'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit pm2-orangepi.service has entered the 'failed' state with result 'protocol'.[0m
+Mar 05 14:20:40 orion systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start PM2 process manager.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10796 and the job result is failed.[0m
+Mar 05 14:20:54 orion systemd[1]: Starting PM2 process manager...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11120.[0m
+Mar 05 14:20:55 orion pm2[4936]: [PM2] Resurrecting
+Mar 05 14:20:55 orion pm2[4936]: [PM2] Restoring processes located in /home/orangepi/.pm2/dump.pm2
+Mar 05 14:20:55 orion pm2[4936]: ┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+Mar 05 14:20:55 orion pm2[4936]: │ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+Mar 05 14:20:55 orion pm2[4936]: ├────┼───────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+Mar 05 14:20:55 orion pm2[4936]: │ 0  │ webapp    │ default     │ N/A     │ fork    │ 4873     │ 17s    │ 0    │ online    │ 0%       │ 58.4mb   │ orangepi │ disabled │
+Mar 05 14:20:55 orion pm2[4936]: └────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Mar 05 14:20:55 orion systemd[1]: pm2-orangepi.service: Can't open PID file /home/orangepi/.pm2/pm2.pid (yet?) after start: Operation not permitted
+Mar 05 14:20:55 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Failed with result 'protocol'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit pm2-orangepi.service has entered the 'failed' state with result 'protocol'.[0m
+Mar 05 14:20:55 orion systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start PM2 process manager.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11120 and the job result is failed.[0m
+Mar 05 14:20:55 orion systemd[1]: pm2-orangepi.service: Scheduled restart job, restart counter is at 1.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit pm2-orangepi.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Mar 05 14:20:55 orion systemd[1]: Stopped PM2 process manager.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit pm2-orangepi.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit pm2-orangepi.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11201 and the job result is done.[0m
+Mar 05 14:20:55 orion systemd[1]: Starting PM2 process manager...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11201.[0m
+Mar 05 14:20:55 orion pm2[4943]: [PM2] Resurrecting
+Mar 05 14:20:55 orion pm2[4943]: [PM2] Restoring processes located in /home/orangepi/.pm2/dump.pm2
+Mar 05 14:20:55 orion pm2[4943]: ┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+Mar 05 14:20:55 orion pm2[4943]: │ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+Mar 05 14:20:55 orion pm2[4943]: ├────┼───────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+Mar 05 14:20:55 orion pm2[4943]: │ 0  │ webapp    │ default     │ N/A     │ fork    │ 4873     │ 17s    │ 0    │ online    │ 0%       │ 58.4mb   │ orangepi │ disabled │
+Mar 05 14:20:55 orion pm2[4943]: └────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Mar 05 14:20:55 orion systemd[1]: pm2-orangepi.service: Can't open PID file /home/orangepi/.pm2/pm2.pid (yet?) after start: Operation not permitted
+Mar 05 14:20:55 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Failed with result 'protocol'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit pm2-orangepi.service has entered the 'failed' state with result 'protocol'.[0m
+Mar 05 14:20:55 orion systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start PM2 process manager.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11201 and the job result is failed.[0m
+Mar 05 14:20:55 orion systemd[1]: pm2-orangepi.service: Scheduled restart job, restart counter is at 2.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit pm2-orangepi.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Mar 05 14:20:55 orion systemd[1]: Stopped PM2 process manager.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit pm2-orangepi.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit pm2-orangepi.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11282 and the job result is done.[0m
+Mar 05 14:20:55 orion systemd[1]: Starting PM2 process manager...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11282.[0m
+Mar 05 14:20:56 orion pm2[4950]: [PM2] Resurrecting
+Mar 05 14:20:56 orion pm2[4950]: [PM2] Restoring processes located in /home/orangepi/.pm2/dump.pm2
+Mar 05 14:20:56 orion pm2[4950]: ┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+Mar 05 14:20:56 orion pm2[4950]: │ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+Mar 05 14:20:56 orion pm2[4950]: ├────┼───────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+Mar 05 14:20:56 orion pm2[4950]: │ 0  │ webapp    │ default     │ N/A     │ fork    │ 4873     │ 18s    │ 0    │ online    │ 0%       │ 58.4mb   │ orangepi │ disabled │
+Mar 05 14:20:56 orion pm2[4950]: └────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Mar 05 14:20:56 orion systemd[1]: pm2-orangepi.service: Can't open PID file /home/orangepi/.pm2/pm2.pid (yet?) after start: Operation not permitted
+Mar 05 14:20:56 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Failed with result 'protocol'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit pm2-orangepi.service has entered the 'failed' state with result 'protocol'.[0m
+Mar 05 14:20:56 orion systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start PM2 process manager.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11282 and the job result is failed.[0m
+Mar 05 14:20:56 orion systemd[1]: pm2-orangepi.service: Scheduled restart job, restart counter is at 3.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit pm2-orangepi.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Mar 05 14:20:56 orion systemd[1]: Stopped PM2 process manager.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit pm2-orangepi.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit pm2-orangepi.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11363 and the job result is done.[0m
+Mar 05 14:20:56 orion systemd[1]: Starting PM2 process manager...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11363.[0m
+Mar 05 14:20:56 orion pm2[4958]: [PM2] Resurrecting
+Mar 05 14:20:56 orion pm2[4958]: [PM2] Restoring processes located in /home/orangepi/.pm2/dump.pm2
+Mar 05 14:20:56 orion pm2[4958]: ┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+Mar 05 14:20:56 orion pm2[4958]: │ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+Mar 05 14:20:56 orion pm2[4958]: ├────┼───────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+Mar 05 14:20:56 orion pm2[4958]: │ 0  │ webapp    │ default     │ N/A     │ fork    │ 4873     │ 18s    │ 0    │ online    │ 0%       │ 58.4mb   │ orangepi │ disabled │
+Mar 05 14:20:56 orion pm2[4958]: └────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Mar 05 14:20:56 orion systemd[1]: pm2-orangepi.service: Can't open PID file /home/orangepi/.pm2/pm2.pid (yet?) after start: Operation not permitted
+Mar 05 14:20:56 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Failed with result 'protocol'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit pm2-orangepi.service has entered the 'failed' state with result 'protocol'.[0m
+Mar 05 14:20:56 orion systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start PM2 process manager.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11363 and the job result is failed.[0m
+Mar 05 14:20:57 orion systemd[1]: pm2-orangepi.service: Scheduled restart job, restart counter is at 4.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit pm2-orangepi.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Mar 05 14:20:57 orion systemd[1]: Stopped PM2 process manager.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit pm2-orangepi.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit pm2-orangepi.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11444 and the job result is done.[0m
+Mar 05 14:20:57 orion systemd[1]: Starting PM2 process manager...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11444.[0m
+Mar 05 14:20:57 orion pm2[4966]: [PM2] Resurrecting
+Mar 05 14:20:57 orion pm2[4966]: [PM2] Restoring processes located in /home/orangepi/.pm2/dump.pm2
+Mar 05 14:20:57 orion pm2[4966]: ┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+Mar 05 14:20:57 orion pm2[4966]: │ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+Mar 05 14:20:57 orion pm2[4966]: ├────┼───────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+Mar 05 14:20:57 orion pm2[4966]: │ 0  │ webapp    │ default     │ N/A     │ fork    │ 4873     │ 19s    │ 0    │ online    │ 0%       │ 58.4mb   │ orangepi │ disabled │
+Mar 05 14:20:57 orion pm2[4966]: └────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Mar 05 14:20:57 orion systemd[1]: pm2-orangepi.service: Can't open PID file /home/orangepi/.pm2/pm2.pid (yet?) after start: Operation not permitted
+Mar 05 14:20:57 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Failed with result 'protocol'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit pm2-orangepi.service has entered the 'failed' state with result 'protocol'.[0m
+Mar 05 14:20:57 orion systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start PM2 process manager.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11444 and the job result is failed.[0m
+Mar 05 14:20:57 orion systemd[1]: pm2-orangepi.service: Scheduled restart job, restart counter is at 5.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit pm2-orangepi.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Mar 05 14:20:57 orion systemd[1]: Stopped PM2 process manager.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit pm2-orangepi.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit pm2-orangepi.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11525 and the job result is done.[0m
+Mar 05 14:20:57 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Start request repeated too quickly.[0m
+Mar 05 14:20:57 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Failed with result 'protocol'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit pm2-orangepi.service has entered the 'failed' state with result 'protocol'.[0m
+Mar 05 14:20:57 orion systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start PM2 process manager.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11525 and the job result is failed.[0m
+Mar 05 14:21:50 orion systemd[1]: Starting PM2 process manager...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12416.[0m
+Mar 05 14:21:50 orion pm2[5007]: [PM2] Resurrecting
+Mar 05 14:21:50 orion pm2[5007]: [PM2] Restoring processes located in /home/orangepi/.pm2/dump.pm2
+Mar 05 14:21:50 orion pm2[5007]: ┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+Mar 05 14:21:50 orion pm2[5007]: │ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+Mar 05 14:21:50 orion pm2[5007]: ├────┼───────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+Mar 05 14:21:50 orion pm2[5007]: │ 0  │ webapp    │ default     │ N/A     │ fork    │ 4873     │ 72s    │ 0    │ online    │ 0%       │ 58.4mb   │ orangepi │ disabled │
+Mar 05 14:21:50 orion pm2[5007]: └────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Mar 05 14:21:50 orion systemd[1]: pm2-orangepi.service: Can't open PID file /home/orangepi/.pm2/pm2.pid (yet?) after start: Operation not permitted
+Mar 05 14:21:50 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Failed with result 'protocol'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit pm2-orangepi.service has entered the 'failed' state with result 'protocol'.[0m
+Mar 05 14:21:50 orion systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start PM2 process manager.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12416 and the job result is failed.[0m
+Mar 05 14:21:51 orion systemd[1]: pm2-orangepi.service: Scheduled restart job, restart counter is at 1.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit pm2-orangepi.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Mar 05 14:21:51 orion systemd[1]: Stopped PM2 process manager.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit pm2-orangepi.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit pm2-orangepi.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12497 and the job result is done.[0m
+Mar 05 14:21:51 orion systemd[1]: Starting PM2 process manager...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12497.[0m
+Mar 05 14:21:51 orion pm2[5014]: [PM2] Resurrecting
+Mar 05 14:21:51 orion pm2[5014]: [PM2] Restoring processes located in /home/orangepi/.pm2/dump.pm2
+Mar 05 14:21:51 orion pm2[5014]: ┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+Mar 05 14:21:51 orion pm2[5014]: │ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+Mar 05 14:21:51 orion pm2[5014]: ├────┼───────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+Mar 05 14:21:51 orion pm2[5014]: │ 0  │ webapp    │ default     │ N/A     │ fork    │ 4873     │ 73s    │ 0    │ online    │ 0%       │ 58.4mb   │ orangepi │ disabled │
+Mar 05 14:21:51 orion pm2[5014]: └────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Mar 05 14:21:51 orion systemd[1]: pm2-orangepi.service: Can't open PID file /home/orangepi/.pm2/pm2.pid (yet?) after start: Operation not permitted
+Mar 05 14:21:51 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Failed with result 'protocol'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit pm2-orangepi.service has entered the 'failed' state with result 'protocol'.[0m
+Mar 05 14:21:51 orion systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start PM2 process manager.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12497 and the job result is failed.[0m
+Mar 05 14:21:51 orion systemd[1]: pm2-orangepi.service: Scheduled restart job, restart counter is at 2.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit pm2-orangepi.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Mar 05 14:21:51 orion systemd[1]: Stopped PM2 process manager.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit pm2-orangepi.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit pm2-orangepi.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12659 and the job result is done.[0m
+Mar 05 14:21:51 orion systemd[1]: Starting PM2 process manager...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12659.[0m
+Mar 05 14:21:52 orion pm2[5022]: [PM2] Resurrecting
+Mar 05 14:21:52 orion pm2[5022]: [PM2] Restoring processes located in /home/orangepi/.pm2/dump.pm2
+Mar 05 14:21:52 orion pm2[5022]: ┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+Mar 05 14:21:52 orion pm2[5022]: │ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+Mar 05 14:21:52 orion pm2[5022]: ├────┼───────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+Mar 05 14:21:52 orion pm2[5022]: │ 0  │ webapp    │ default     │ N/A     │ fork    │ 4873     │ 74s    │ 0    │ online    │ 0%       │ 58.4mb   │ orangepi │ disabled │
+Mar 05 14:21:52 orion pm2[5022]: └────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Mar 05 14:21:52 orion systemd[1]: pm2-orangepi.service: Can't open PID file /home/orangepi/.pm2/pm2.pid (yet?) after start: Operation not permitted
+Mar 05 14:21:52 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Failed with result 'protocol'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit pm2-orangepi.service has entered the 'failed' state with result 'protocol'.[0m
+Mar 05 14:21:52 orion systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start PM2 process manager.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12659 and the job result is failed.[0m
+Mar 05 14:21:52 orion systemd[1]: pm2-orangepi.service: Scheduled restart job, restart counter is at 3.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit pm2-orangepi.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Mar 05 14:21:52 orion systemd[1]: Stopped PM2 process manager.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit pm2-orangepi.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit pm2-orangepi.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12740 and the job result is done.[0m
+Mar 05 14:21:52 orion systemd[1]: Starting PM2 process manager...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12740.[0m
+Mar 05 14:21:52 orion pm2[5029]: [PM2] Resurrecting
+Mar 05 14:21:52 orion pm2[5029]: [PM2] Restoring processes located in /home/orangepi/.pm2/dump.pm2
+Mar 05 14:21:52 orion pm2[5029]: ┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+Mar 05 14:21:52 orion pm2[5029]: │ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+Mar 05 14:21:52 orion pm2[5029]: ├────┼───────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+Mar 05 14:21:52 orion pm2[5029]: │ 0  │ webapp    │ default     │ N/A     │ fork    │ 4873     │ 74s    │ 0    │ online    │ 0%       │ 58.4mb   │ orangepi │ disabled │
+Mar 05 14:21:52 orion pm2[5029]: └────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Mar 05 14:21:52 orion systemd[1]: pm2-orangepi.service: Can't open PID file /home/orangepi/.pm2/pm2.pid (yet?) after start: Operation not permitted
+Mar 05 14:21:52 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Failed with result 'protocol'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit pm2-orangepi.service has entered the 'failed' state with result 'protocol'.[0m
+Mar 05 14:21:52 orion systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start PM2 process manager.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12740 and the job result is failed.[0m
+Mar 05 14:21:52 orion systemd[1]: pm2-orangepi.service: Scheduled restart job, restart counter is at 4.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit pm2-orangepi.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Mar 05 14:21:52 orion systemd[1]: Stopped PM2 process manager.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit pm2-orangepi.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit pm2-orangepi.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12821 and the job result is done.[0m
+Mar 05 14:21:52 orion systemd[1]: Starting PM2 process manager...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12821.[0m
+Mar 05 14:21:53 orion pm2[5036]: [PM2] Resurrecting
+Mar 05 14:21:53 orion pm2[5036]: [PM2] Restoring processes located in /home/orangepi/.pm2/dump.pm2
+Mar 05 14:21:53 orion pm2[5036]: ┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+Mar 05 14:21:53 orion pm2[5036]: │ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+Mar 05 14:21:53 orion pm2[5036]: ├────┼───────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+Mar 05 14:21:53 orion pm2[5036]: │ 0  │ webapp    │ default     │ N/A     │ fork    │ 4873     │ 75s    │ 0    │ online    │ 0%       │ 58.4mb   │ orangepi │ disabled │
+Mar 05 14:21:53 orion pm2[5036]: └────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Mar 05 14:21:53 orion systemd[1]: pm2-orangepi.service: Can't open PID file /home/orangepi/.pm2/pm2.pid (yet?) after start: Operation not permitted
+Mar 05 14:21:53 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Failed with result 'protocol'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit pm2-orangepi.service has entered the 'failed' state with result 'protocol'.[0m
+Mar 05 14:21:53 orion systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start PM2 process manager.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12821 and the job result is failed.[0m
+Mar 05 14:21:53 orion systemd[1]: pm2-orangepi.service: Scheduled restart job, restart counter is at 5.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit pm2-orangepi.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Mar 05 14:21:53 orion systemd[1]: Stopped PM2 process manager.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit pm2-orangepi.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit pm2-orangepi.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12902 and the job result is done.[0m
+Mar 05 14:21:53 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Start request repeated too quickly.[0m
+Mar 05 14:21:53 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Failed with result 'protocol'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit pm2-orangepi.service has entered the 'failed' state with result 'protocol'.[0m
+Mar 05 14:21:53 orion systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start PM2 process manager.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12902 and the job result is failed.[0m
+Mar 05 14:25:04 orion systemd[1]: Starting PM2 process manager...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 16068.[0m
+Mar 05 14:25:04 orion pm2[5634]: [PM2] Resurrecting
+Mar 05 14:25:04 orion pm2[5634]: [PM2] Restoring processes located in /home/orangepi/.pm2/dump.pm2
+Mar 05 14:25:04 orion pm2[5634]: ┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+Mar 05 14:25:04 orion pm2[5634]: │ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+Mar 05 14:25:04 orion pm2[5634]: ├────┼───────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+Mar 05 14:25:04 orion pm2[5634]: │ 0  │ webapp    │ default     │ N/A     │ fork    │ 5562     │ 15s    │ 0    │ online    │ 0%       │ 55.3mb   │ orangepi │ disabled │
+Mar 05 14:25:04 orion pm2[5634]: └────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Mar 05 14:25:04 orion systemd[1]: pm2-orangepi.service: Can't open PID file /home/orangepi/.pm2/pm2.pid (yet?) after start: Operation not permitted
+Mar 05 14:25:04 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Failed with result 'protocol'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit pm2-orangepi.service has entered the 'failed' state with result 'protocol'.[0m
+Mar 05 14:25:04 orion systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start PM2 process manager.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 16068 and the job result is failed.[0m
+Mar 05 14:25:04 orion systemd[1]: pm2-orangepi.service: Scheduled restart job, restart counter is at 1.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit pm2-orangepi.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Mar 05 14:25:04 orion systemd[1]: Stopped PM2 process manager.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit pm2-orangepi.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit pm2-orangepi.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 16149 and the job result is done.[0m
+Mar 05 14:25:04 orion systemd[1]: Starting PM2 process manager...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 16149.[0m
+Mar 05 14:25:04 orion pm2[5642]: [PM2] Resurrecting
+Mar 05 14:25:04 orion pm2[5642]: [PM2] Restoring processes located in /home/orangepi/.pm2/dump.pm2
+Mar 05 14:25:04 orion pm2[5642]: ┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+Mar 05 14:25:04 orion pm2[5642]: │ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+Mar 05 14:25:04 orion pm2[5642]: ├────┼───────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+Mar 05 14:25:04 orion pm2[5642]: │ 0  │ webapp    │ default     │ N/A     │ fork    │ 5562     │ 16s    │ 0    │ online    │ 0%       │ 55.3mb   │ orangepi │ disabled │
+Mar 05 14:25:04 orion pm2[5642]: └────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Mar 05 14:25:04 orion systemd[1]: pm2-orangepi.service: Can't open PID file /home/orangepi/.pm2/pm2.pid (yet?) after start: Operation not permitted
+Mar 05 14:25:04 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Failed with result 'protocol'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit pm2-orangepi.service has entered the 'failed' state with result 'protocol'.[0m
+Mar 05 14:25:05 orion systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start PM2 process manager.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 16149 and the job result is failed.[0m
+Mar 05 14:25:05 orion systemd[1]: pm2-orangepi.service: Scheduled restart job, restart counter is at 2.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit pm2-orangepi.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Mar 05 14:25:05 orion systemd[1]: Stopped PM2 process manager.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit pm2-orangepi.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit pm2-orangepi.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 16230 and the job result is done.[0m
+Mar 05 14:25:05 orion systemd[1]: Starting PM2 process manager...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 16230.[0m
+Mar 05 14:25:05 orion pm2[5649]: [PM2] Resurrecting
+Mar 05 14:25:05 orion pm2[5649]: [PM2] Restoring processes located in /home/orangepi/.pm2/dump.pm2
+Mar 05 14:25:05 orion pm2[5649]: ┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+Mar 05 14:25:05 orion pm2[5649]: │ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+Mar 05 14:25:05 orion pm2[5649]: ├────┼───────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+Mar 05 14:25:05 orion pm2[5649]: │ 0  │ webapp    │ default     │ N/A     │ fork    │ 5562     │ 16s    │ 0    │ online    │ 0%       │ 55.3mb   │ orangepi │ disabled │
+Mar 05 14:25:05 orion pm2[5649]: └────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Mar 05 14:25:05 orion systemd[1]: pm2-orangepi.service: Can't open PID file /home/orangepi/.pm2/pm2.pid (yet?) after start: Operation not permitted
+Mar 05 14:25:05 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Failed with result 'protocol'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit pm2-orangepi.service has entered the 'failed' state with result 'protocol'.[0m
+Mar 05 14:25:05 orion systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start PM2 process manager.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 16230 and the job result is failed.[0m
+Mar 05 14:25:05 orion systemd[1]: pm2-orangepi.service: Scheduled restart job, restart counter is at 3.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit pm2-orangepi.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Mar 05 14:25:05 orion systemd[1]: Stopped PM2 process manager.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit pm2-orangepi.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit pm2-orangepi.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 16392 and the job result is done.[0m
+Mar 05 14:25:05 orion systemd[1]: Starting PM2 process manager...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 16392.[0m
+Mar 05 14:25:05 orion pm2[5657]: [PM2] Resurrecting
+Mar 05 14:25:05 orion pm2[5657]: [PM2] Restoring processes located in /home/orangepi/.pm2/dump.pm2
+Mar 05 14:25:06 orion pm2[5657]: ┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+Mar 05 14:25:06 orion pm2[5657]: │ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+Mar 05 14:25:06 orion pm2[5657]: ├────┼───────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+Mar 05 14:25:06 orion pm2[5657]: │ 0  │ webapp    │ default     │ N/A     │ fork    │ 5562     │ 17s    │ 0    │ online    │ 0%       │ 55.3mb   │ orangepi │ disabled │
+Mar 05 14:25:06 orion pm2[5657]: └────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Mar 05 14:25:06 orion systemd[1]: pm2-orangepi.service: Can't open PID file /home/orangepi/.pm2/pm2.pid (yet?) after start: Operation not permitted
+Mar 05 14:25:06 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Failed with result 'protocol'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit pm2-orangepi.service has entered the 'failed' state with result 'protocol'.[0m
+Mar 05 14:25:06 orion systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start PM2 process manager.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 16392 and the job result is failed.[0m
+Mar 05 14:25:06 orion systemd[1]: pm2-orangepi.service: Scheduled restart job, restart counter is at 4.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit pm2-orangepi.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Mar 05 14:25:06 orion systemd[1]: Stopped PM2 process manager.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit pm2-orangepi.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit pm2-orangepi.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 16473 and the job result is done.[0m
+Mar 05 14:25:06 orion systemd[1]: Starting PM2 process manager...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 16473.[0m
+Mar 05 14:25:06 orion pm2[5664]: [PM2] Resurrecting
+Mar 05 14:25:06 orion pm2[5664]: [PM2] Restoring processes located in /home/orangepi/.pm2/dump.pm2
+Mar 05 14:25:06 orion pm2[5664]: ┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+Mar 05 14:25:06 orion pm2[5664]: │ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+Mar 05 14:25:06 orion pm2[5664]: ├────┼───────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+Mar 05 14:25:06 orion pm2[5664]: │ 0  │ webapp    │ default     │ N/A     │ fork    │ 5562     │ 18s    │ 0    │ online    │ 0%       │ 55.3mb   │ orangepi │ disabled │
+Mar 05 14:25:06 orion pm2[5664]: └────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Mar 05 14:25:06 orion systemd[1]: pm2-orangepi.service: Can't open PID file /home/orangepi/.pm2/pm2.pid (yet?) after start: Operation not permitted
+Mar 05 14:25:06 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Failed with result 'protocol'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit pm2-orangepi.service has entered the 'failed' state with result 'protocol'.[0m
+Mar 05 14:25:06 orion systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start PM2 process manager.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 16473 and the job result is failed.[0m
+Mar 05 14:25:06 orion systemd[1]: pm2-orangepi.service: Scheduled restart job, restart counter is at 5.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit pm2-orangepi.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Mar 05 14:25:06 orion systemd[1]: Stopped PM2 process manager.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit pm2-orangepi.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit pm2-orangepi.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 16554 and the job result is done.[0m
+Mar 05 14:25:06 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Start request repeated too quickly.[0m
+Mar 05 14:25:06 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Failed with result 'protocol'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit pm2-orangepi.service has entered the 'failed' state with result 'protocol'.[0m
+Mar 05 14:25:06 orion systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start PM2 process manager.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 16554 and the job result is failed.[0m
+Mar 05 14:27:29 orion systemd[1]: Starting PM2 process manager...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 19151.[0m
+Mar 05 14:27:30 orion pm2[5836]: [PM2] Resurrecting
+Mar 05 14:27:30 orion pm2[5836]: [PM2] Restoring processes located in /home/orangepi/.pm2/dump.pm2
+Mar 05 14:27:30 orion pm2[5836]: ┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+Mar 05 14:27:30 orion pm2[5836]: │ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+Mar 05 14:27:30 orion pm2[5836]: ├────┼───────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+Mar 05 14:27:30 orion pm2[5836]: │ 0  │ webapp    │ default     │ N/A     │ fork    │ 5562     │ 2m     │ 0    │ online    │ 0%       │ 55.3mb   │ orangepi │ disabled │
+Mar 05 14:27:30 orion pm2[5836]: └────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Mar 05 14:27:30 orion systemd[1]: pm2-orangepi.service: Can't open PID file /home/orangepi/.pm2/pm2.pid (yet?) after start: Operation not permitted
+Mar 05 14:27:30 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Failed with result 'protocol'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit pm2-orangepi.service has entered the 'failed' state with result 'protocol'.[0m
+Mar 05 14:27:30 orion systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start PM2 process manager.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 19151 and the job result is failed.[0m
+Mar 05 14:27:30 orion systemd[1]: pm2-orangepi.service: Scheduled restart job, restart counter is at 1.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit pm2-orangepi.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Mar 05 14:27:30 orion systemd[1]: Stopped PM2 process manager.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit pm2-orangepi.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit pm2-orangepi.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 19232 and the job result is done.[0m
+Mar 05 14:27:30 orion systemd[1]: Starting PM2 process manager...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 19232.[0m
+Mar 05 14:27:30 orion pm2[5844]: [PM2] Resurrecting
+Mar 05 14:27:30 orion pm2[5844]: [PM2] Restoring processes located in /home/orangepi/.pm2/dump.pm2
+Mar 05 14:27:30 orion pm2[5844]: ┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+Mar 05 14:27:30 orion pm2[5844]: │ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+Mar 05 14:27:30 orion pm2[5844]: ├────┼───────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+Mar 05 14:27:30 orion pm2[5844]: │ 0  │ webapp    │ default     │ N/A     │ fork    │ 5562     │ 2m     │ 0    │ online    │ 0%       │ 55.3mb   │ orangepi │ disabled │
+Mar 05 14:27:30 orion pm2[5844]: └────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Mar 05 14:27:30 orion systemd[1]: pm2-orangepi.service: Can't open PID file /home/orangepi/.pm2/pm2.pid (yet?) after start: Operation not permitted
+Mar 05 14:27:30 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Failed with result 'protocol'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit pm2-orangepi.service has entered the 'failed' state with result 'protocol'.[0m
+Mar 05 14:27:30 orion systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start PM2 process manager.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 19232 and the job result is failed.[0m
+Mar 05 14:27:31 orion systemd[1]: pm2-orangepi.service: Scheduled restart job, restart counter is at 2.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit pm2-orangepi.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Mar 05 14:27:31 orion systemd[1]: Stopped PM2 process manager.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit pm2-orangepi.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit pm2-orangepi.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 19313 and the job result is done.[0m
+Mar 05 14:27:31 orion systemd[1]: Starting PM2 process manager...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 19313.[0m
+Mar 05 14:27:31 orion pm2[5852]: [PM2] Resurrecting
+Mar 05 14:27:31 orion pm2[5852]: [PM2] Restoring processes located in /home/orangepi/.pm2/dump.pm2
+Mar 05 14:27:31 orion pm2[5852]: ┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+Mar 05 14:27:31 orion pm2[5852]: │ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+Mar 05 14:27:31 orion pm2[5852]: ├────┼───────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+Mar 05 14:27:31 orion pm2[5852]: │ 0  │ webapp    │ default     │ N/A     │ fork    │ 5562     │ 2m     │ 0    │ online    │ 0%       │ 55.3mb   │ orangepi │ disabled │
+Mar 05 14:27:31 orion pm2[5852]: └────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Mar 05 14:27:31 orion systemd[1]: pm2-orangepi.service: Can't open PID file /home/orangepi/.pm2/pm2.pid (yet?) after start: Operation not permitted
+Mar 05 14:27:31 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Failed with result 'protocol'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit pm2-orangepi.service has entered the 'failed' state with result 'protocol'.[0m
+Mar 05 14:27:31 orion systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start PM2 process manager.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 19313 and the job result is failed.[0m
+Mar 05 14:27:31 orion systemd[1]: pm2-orangepi.service: Scheduled restart job, restart counter is at 3.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit pm2-orangepi.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Mar 05 14:27:31 orion systemd[1]: Stopped PM2 process manager.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit pm2-orangepi.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit pm2-orangepi.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 19394 and the job result is done.[0m
+Mar 05 14:27:31 orion systemd[1]: Starting PM2 process manager...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 19394.[0m
+Mar 05 14:27:31 orion pm2[5859]: [PM2] Resurrecting
+Mar 05 14:27:31 orion pm2[5859]: [PM2] Restoring processes located in /home/orangepi/.pm2/dump.pm2
+Mar 05 14:27:32 orion pm2[5859]: ┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+Mar 05 14:27:32 orion pm2[5859]: │ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+Mar 05 14:27:32 orion pm2[5859]: ├────┼───────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+Mar 05 14:27:32 orion pm2[5859]: │ 0  │ webapp    │ default     │ N/A     │ fork    │ 5562     │ 2m     │ 0    │ online    │ 0%       │ 55.3mb   │ orangepi │ disabled │
+Mar 05 14:27:32 orion pm2[5859]: └────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Mar 05 14:27:32 orion systemd[1]: pm2-orangepi.service: Can't open PID file /home/orangepi/.pm2/pm2.pid (yet?) after start: Operation not permitted
+Mar 05 14:27:32 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Failed with result 'protocol'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit pm2-orangepi.service has entered the 'failed' state with result 'protocol'.[0m
+Mar 05 14:27:32 orion systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start PM2 process manager.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 19394 and the job result is failed.[0m
+Mar 05 14:27:32 orion systemd[1]: pm2-orangepi.service: Scheduled restart job, restart counter is at 4.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit pm2-orangepi.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Mar 05 14:27:32 orion systemd[1]: Stopped PM2 process manager.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit pm2-orangepi.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit pm2-orangepi.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 19475 and the job result is done.[0m
+Mar 05 14:27:32 orion systemd[1]: Starting PM2 process manager...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 19475.[0m
+Mar 05 14:27:32 orion pm2[5866]: [PM2] Resurrecting
+Mar 05 14:27:32 orion pm2[5866]: [PM2] Restoring processes located in /home/orangepi/.pm2/dump.pm2
+Mar 05 14:27:32 orion pm2[5866]: ┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+Mar 05 14:27:32 orion pm2[5866]: │ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+Mar 05 14:27:32 orion pm2[5866]: ├────┼───────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+Mar 05 14:27:32 orion pm2[5866]: │ 0  │ webapp    │ default     │ N/A     │ fork    │ 5562     │ 2m     │ 0    │ online    │ 0%       │ 55.3mb   │ orangepi │ disabled │
+Mar 05 14:27:32 orion pm2[5866]: └────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Mar 05 14:27:32 orion systemd[1]: pm2-orangepi.service: Can't open PID file /home/orangepi/.pm2/pm2.pid (yet?) after start: Operation not permitted
+Mar 05 14:27:32 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Failed with result 'protocol'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit pm2-orangepi.service has entered the 'failed' state with result 'protocol'.[0m
+Mar 05 14:27:32 orion systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start PM2 process manager.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 19475 and the job result is failed.[0m
+Mar 05 14:27:32 orion systemd[1]: pm2-orangepi.service: Scheduled restart job, restart counter is at 5.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit pm2-orangepi.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Mar 05 14:27:32 orion systemd[1]: Stopped PM2 process manager.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit pm2-orangepi.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit pm2-orangepi.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 19637 and the job result is done.[0m
+Mar 05 14:27:32 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Start request repeated too quickly.[0m
+Mar 05 14:27:32 orion systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpm2-orangepi.service: Failed with result 'protocol'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit pm2-orangepi.service has entered the 'failed' state with result 'protocol'.[0m
+Mar 05 14:27:32 orion systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start PM2 process manager.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit pm2-orangepi.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pm2-orangepi.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 19637 and the job result is failed.[0m
