@@ -1,0 +1,282 @@
+Error [ERR_UNSUPPORTED_DIR_IMPORT]: Directory import '/home/orangepi/wifi-manager/frontend/dist' is not supported resolving ES modules imported from /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js
+    at new NodeError (node:internal/errors:387:5)
+    at finalizeResolution (node:internal/modules/esm/resolve:326:17)
+    at moduleResolve (node:internal/modules/esm/resolve:907:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1115:11)
+    at nextResolve (node:internal/modules/esm/loader:163:28)
+    at ESMLoader.resolve (node:internal/modules/esm/loader:841:30)
+    at ESMLoader.getModuleJob (node:internal/modules/esm/loader:424:18)
+    at ESMLoader.import (node:internal/modules/esm/loader:525:22)
+    at importModuleDynamically (node:internal/modules/cjs/loader:1136:29)
+    at importModuleDynamicallyWrapper (node:internal/vm/module:438:21) {
+  code: 'ERR_UNSUPPORTED_DIR_IMPORT',
+  url: 'file:///home/orangepi/wifi-manager/frontend/dist'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_UNSUPPORTED_DIR_IMPORT]: Directory import '/home/orangepi/wifi-manager/frontend/dist' is not supported resolving ES modules imported from /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js
+    at new NodeError (node:internal/errors:387:5)
+    at finalizeResolution (node:internal/modules/esm/resolve:326:17)
+    at moduleResolve (node:internal/modules/esm/resolve:907:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1115:11)
+    at nextResolve (node:internal/modules/esm/loader:163:28)
+    at ESMLoader.resolve (node:internal/modules/esm/loader:841:30)
+    at ESMLoader.getModuleJob (node:internal/modules/esm/loader:424:18)
+    at ESMLoader.import (node:internal/modules/esm/loader:525:22)
+    at importModuleDynamically (node:internal/modules/cjs/loader:1136:29)
+    at importModuleDynamicallyWrapper (node:internal/vm/module:438:21) {
+  code: 'ERR_UNSUPPORTED_DIR_IMPORT',
+  url: 'file:///home/orangepi/wifi-manager/frontend/dist'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_UNSUPPORTED_DIR_IMPORT]: Directory import '/home/orangepi/wifi-manager/frontend/dist' is not supported resolving ES modules imported from /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js
+    at new NodeError (node:internal/errors:387:5)
+    at finalizeResolution (node:internal/modules/esm/resolve:326:17)
+    at moduleResolve (node:internal/modules/esm/resolve:907:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1115:11)
+    at nextResolve (node:internal/modules/esm/loader:163:28)
+    at ESMLoader.resolve (node:internal/modules/esm/loader:841:30)
+    at ESMLoader.getModuleJob (node:internal/modules/esm/loader:424:18)
+    at ESMLoader.import (node:internal/modules/esm/loader:525:22)
+    at importModuleDynamically (node:internal/modules/cjs/loader:1136:29)
+    at importModuleDynamicallyWrapper (node:internal/vm/module:438:21) {
+  code: 'ERR_UNSUPPORTED_DIR_IMPORT',
+  url: 'file:///home/orangepi/wifi-manager/frontend/dist'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Error [ERR_REQUIRE_ESM]: require() of ES Module /home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/serve/build/main.js not supported.
+Instead change the require of main.js in null to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (/home/orangepi/.nvm/versions/node/v16.20.2/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23) {
+  code: 'ERR_REQUIRE_ESM'
+}
